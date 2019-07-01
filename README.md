@@ -10,6 +10,9 @@ Tansport Management System Apps for Erpnext [Frappe]
 5. Run server [if you are on development mode] by using bench command: bench start
 6. Open another terminal and clear cache: bench clear-cache or click reload on your desk
 7. The app should have been installed on your erpnext
+8. Make changes to the database accordingly by using command: bench migrate
+
+*Note: This app has not been tested yet.
 
 #### License
 
