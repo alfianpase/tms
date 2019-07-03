@@ -120,3 +120,6 @@ app_license = "MIT"
 # 	"frappe.desk.doctype.event.event.get_events": "tms.event.get_events"
 # }
 
+fixtures=[
+	{"doctype": "Workflow"}
+]
