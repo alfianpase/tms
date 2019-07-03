@@ -122,6 +122,5 @@ app_license = "MIT"
 
 fixtures=[
 	{"doctype": "Workflow"},
-	{"doctype": "Role"},
-	{"doctype": "Naming Series"}
+	{"doctype": "Role"}
 ]
