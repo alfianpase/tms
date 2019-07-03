@@ -642,7 +642,7 @@
   "disabled": 1,
   "docstatus": 0,
   "doctype": "Role",
-  "modified": "2019-06-28 17:12:25.306273",
+  "modified": "2019-06-28 17:12:25.306273", 
   "name": "Non Profit Portal User",
   "restrict_to_domain": "Non Profit",
   "role_name": "Non Profit Portal User",
