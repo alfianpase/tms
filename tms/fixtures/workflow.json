@@ -2,6 +2,82 @@
  {
   "docstatus": 0, 
   "doctype": "Workflow", 
+  "document_type": "Request Pinjaman", 
+  "is_active": 1, 
+  "modified": "2019-06-26 14:23:49.676470", 
+  "name": "Request Pinjaman", 
+  "override_status": 0, 
+  "send_email_alert": 0, 
+  "states": [
+   {
+    "allow_edit": "Mahasiswi", 
+    "doc_status": "0", 
+    "message": null, 
+    "next_action_email_template": null, 
+    "state": "Draft", 
+    "update_field": null, 
+    "update_value": null
+   }, 
+   {
+    "allow_edit": "Mahasiswi", 
+    "doc_status": "0", 
+    "message": null, 
+    "next_action_email_template": null, 
+    "state": "Pending", 
+    "update_field": null, 
+    "update_value": null
+   }, 
+   {
+    "allow_edit": "Kepala Perpustakaan", 
+    "doc_status": "0", 
+    "message": null, 
+    "next_action_email_template": null, 
+    "state": "Rejected", 
+    "update_field": null, 
+    "update_value": null
+   }, 
+   {
+    "allow_edit": "Kepala Perpustakaan", 
+    "doc_status": "1", 
+    "message": null, 
+    "next_action_email_template": null, 
+    "state": "Approved", 
+    "update_field": null, 
+    "update_value": null
+   }
+  ], 
+  "transitions": [
+   {
+    "action": "Send Request", 
+    "allow_self_approval": 1, 
+    "allowed": "Mahasiswi", 
+    "condition": null, 
+    "next_state": "Pending", 
+    "state": "Draft"
+   }, 
+   {
+    "action": "Approve", 
+    "allow_self_approval": 1, 
+    "allowed": "Kepala Perpustakaan", 
+    "condition": null, 
+    "next_state": "Approved", 
+    "state": "Pending"
+   }, 
+   {
+    "action": "Reject", 
+    "allow_self_approval": 1, 
+    "allowed": "Kepala Perpustakaan", 
+    "condition": null, 
+    "next_state": "Rejected", 
+    "state": "Pending"
+   }
+  ], 
+  "workflow_name": "Request Pinjaman", 
+  "workflow_state_field": "workflow_state"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow", 
   "document_type": "Transport Order", 
   "is_active": 1, 
   "modified": "2019-07-03 09:09:02.424791", 
