@@ -119,8 +119,3 @@ app_license = "MIT"
 # override_whitelisted_methods = {
 # 	"frappe.desk.doctype.event.event.get_events": "tms.event.get_events"
 # }
-
-fixtures=[
-	{"doctype": "Workflow"},
-	{"doctype": "Role"}
-]
