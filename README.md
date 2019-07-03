@@ -14,6 +14,17 @@ Tansport Management System Apps for Erpnext [Frappe]
 
 *Note: This app has not been tested yet.
 
+## [Importing Master Data]
+1. Login to your Desk and go to tms menu
+2. Choose the doctype data you want to import. Eg: Master Stock Type
+3. Click on Menu then choose Import
+4. Make new import data
+5. Choose update record on action field
+6. Attach the file (eg: Master_Stock_Type.xlsx) and upload it.
+7. Check "Submit after commiting"
+8. Click Start Import
+9. Check if your data has been imported
+
 #### License
 
 MIT
